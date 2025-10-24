@@ -1,11 +1,12 @@
 void main() {
   var name = 'Fauzi';
+  var hello = '';
 
   void sayHello() {
-    var hello = 'Hello $name';
+    hello = 'Hello $name';
     print(hello);
   }
 
   sayHello();
-  print(hello); // error tidak bisa diakses
+  print(hello);
 }

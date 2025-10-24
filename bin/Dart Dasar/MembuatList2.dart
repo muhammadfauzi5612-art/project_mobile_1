@@ -1,5 +1,5 @@
-void main(){
-  Set<int> numbers = {};
-  var names = <String>{}
+void main() {
+  Set<int> numbers = <int>{};
+  var names = <String>{};
   final numberDouble = <String>{};
 }
